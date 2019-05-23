@@ -1,0 +1,114 @@
+.section {
+  background: #fafafa;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+}
+
+.section navigator:first-child {
+  margin-top: 0;
+}
+
+navigator {
+  background: #fff;
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 15rpx;
+  height: 140rpx;
+  border-radius: 15rpx;
+  padding-top: 20rpx;
+}
+
+.time {
+  width: 94%;
+  margin-left: 3%;
+  height: 50rpx;
+}
+
+.time .time_image image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 25rpx;
+  float: left;
+}
+
+.time .time_detail {
+  margin-left: 25rpx;
+  float: left;
+}
+
+.info {
+  margin-top: 25rpx;
+}
+
+.info .beginTime {
+  width: 45%;
+  float: left;
+  margin-left: 50rpx;
+  font-size: 30rpx;
+}
+
+.info .endTime {
+  float: left;
+  /* margin-left: 75rpx; */
+  font-size: 30rpx;
+}
+
+.no-data {
+  color: #dbdbdb;
+  font-size: 60rpx;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 250rpx;
+  line-height: 250rpx;
+  overflow: hidden；;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 250rpx;
+  width: 250rpx;
+}
+
+.loading image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-90deg);
+  }
+
+  to {
+    transform: rotate(270deg);
+  }
+}
+
+.status {
+  position: relative;
+  top: -142rpx; 
+  text-align: right;
+}
+
+.status image {
+  width: 120rpx;
+  height: 120rpx;
+}

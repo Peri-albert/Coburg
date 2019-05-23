@@ -1,0 +1,81 @@
+<form>
+  <view class='cell cell1'>
+    <view class='option'>
+      <text>冲洗温度</text>
+    </view>
+    <view class="border">
+      <radio-group>
+      <radio data-no="0" bindtouchend='press_1'></radio>
+      <radio data-no="1" bindtouchend='press_1'></radio>
+      <radio data-no="2" bindtouchend='press_1'></radio>
+      <radio data-no="3" bindtouchend='press_1'></radio>
+      <radio data-no="4" bindtouchend='press_1'></radio>
+      <radio data-no="5" bindtouchend='press_1'></radio>
+    </radio-group>
+    </view>
+    
+    <view class='radio-text text1'>
+      <text>关</text>
+      <text>低</text>
+      <text>中低</text>
+      <text>中</text>
+      <text>中高</text>
+      <text>高</text>
+    </view>
+  </view>
+  <view class='cell cell2'>
+    <view class='option'>
+      <text>喷管位置</text>
+    </view>
+    <view class="border">
+      <radio-group>
+      <radio data-no="0" bindtouchend='press_2'></radio>
+      <radio data-no="6" bindtouchend='press_2'></radio>
+      <radio data-no="12" bindtouchend='press_2'></radio>
+    </radio-group>
+    </view>
+    
+    <view class='radio-text text2'>
+      <text>近</text>
+      <text>中</text>
+      <text>远</text>
+    </view>
+  </view>
+  <view class='cell cell2'>
+    <view class='option'>
+      <text>冲洗水压</text>
+    </view>
+    <view class="border">
+      <radio-group>
+      <radio data-no="0" bindtouchend='press_3'></radio>
+      <radio data-no="18" bindtouchend='press_3'></radio>
+      <radio data-no="36" bindtouchend='press_3'></radio>
+    </radio-group>
+    </view>
+    
+    <view class='radio-text text2'>
+      <text>低</text>
+      <text>中</text>
+      <text>高</text>
+    </view>
+  </view>
+  <view class='cell cell3'>
+    <view class='option'>
+      <text>移动冲洗</text>
+    </view>
+    <view class="border">
+      <radio-group>
+      <radio data-no="0" bindtouchend='press_4'></radio>
+      <radio data-no="54" bindtouchend='press_4'></radio>
+    </radio-group>
+    </view>
+    
+    <view class='radio-text text3'>
+      <text>关</text>
+      <text>开</text>
+    </view>
+  </view>
+  <view class='cell'>
+    <button bindtouchend='start_bl'>确定</button>
+  </view>
+</form>

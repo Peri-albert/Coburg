@@ -1,0 +1,43 @@
+<view class='BMI'>
+  <view class='icon_doctor'>
+    <image src='../../images/mine/information/doctor.png'></image>
+  </view>
+  <view class='BMI_txt'>
+    <text>BMI</text>
+  </view>
+  <view class='BMI_data'>
+    <text>{{editData.BMI}}</text>
+  </view>
+</view>
+<view class='healthy'>
+  <form>
+    <view class='data'>
+      <text>体重(kg)</text>
+      <input id='weight' value='{{editData.weight}}' type='digit' disabled='{{edit}}' bindinput='onedit'></input>
+    </view>
+    <view class='data'>
+      <text>身高(cm)</text>
+      <input id='height' value='{{editData.height}}' type='digit' disabled='{{edit}}' bindinput='onedit'></input>
+    </view>
+    <view class='data'>
+      <text>年龄(周岁)</text>
+      <input id='age' value='{{editData.age}}' type='number' disabled='{{edit}}' bindinput='onedit'></input>
+    </view>
+    <view class='data'>
+      <text>性别</text>
+      <input id='sex' value='{{editData.sex}}' type='text' disabled='{{edit}}' bindinput='onedit'></input>
+    </view>
+    <view class='data'>
+      <text>心率(bpm)</text>
+      <input id='heart_rate' value='{{editData.heart_rate}}' type='digit' disabled='true' bindinput='onedit'></input>
+    </view>
+    <view class='data'>
+      <text>血压(mmHg)</text>
+      <input id='blood_pressure' value='{{editData.blood_pressure}}' type='text' disabled='true' bindinput='onedit'></input>
+    </view>
+    <view class='btn'>
+      <button bindtap='edit'>{{editText}}</button>
+      <button bindtap='submit'>保存</button>
+    </view>
+  </form>
+</view>

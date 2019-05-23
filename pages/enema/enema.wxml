@@ -1,0 +1,21 @@
+<form>
+  <view class='cell cell'>
+    <view class='option'>
+      <text>通便</text>
+    </view>
+    <view class="border">
+      <radio-group>
+      <radio data-no="0" bindtouchend='press_1'></radio>
+      <radio data-no="1" bindtouchend='press_1'></radio>
+    </radio-group>
+    </view>
+    
+    <view class='radio-text text'>
+      <text>关</text>
+      <text>开</text>
+    </view>
+  </view>
+  <view class='cell'>
+    <button bindtouchend='start_bl'>确定</button>
+  </view>
+</form>

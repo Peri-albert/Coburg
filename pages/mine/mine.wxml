@@ -1,0 +1,28 @@
+<view class="section">
+  <view class="headsculpture">
+    <image src="../../images/mine/default.png"></image>
+  </view>
+  <view class="menu">
+    <navigator url="../information/information" hover-class="none">
+      <view class="information">
+        <image src="../../images/mine/information.png"></image>
+        <text>个人信息</text>
+        <image src="../../images/mine/go.png"></image>
+      </view>
+    </navigator>
+    <navigator url="../record/record" hover-class="none">
+      <view class="record">
+        <image src="../../images/mine/record.png"></image>
+        <text>使用记录</text>
+        <image src="../../images/mine/go.png"></image>
+      </view>
+    </navigator>
+    <navigator url="../contact/contact" hover-class="none">
+      <view class="contact">
+        <image src="../../images/mine/contact.png"></image>
+        <text>联系我们</text>
+        <image src="../../images/mine/go.png"></image>
+      </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/contact/contact.wxml-->
+<view class="section">
+  <view class="logo">
+    <image src="../../images/mine/contact/logo.png"></image>
+  </view>
+  <view class="menu">
+    <navigator url="#" hover-class="none">
+      <view class="account">
+        <image src="../../images/mine/contact/account.png"></image>
+        <text>公众号</text>
+        <text>Coburg</text>
+      </view>
+    </navigator>
+    <navigator url="#" hover-class="none">
+      <view class="phone">
+        <image src="../../images/mine/contact/phone.png"></image>
+        <text>联系方式</text>
+        <text>XXXXXXXXXXX</text>
+      </view>
+    </navigator>
+    <navigator url="#" hover-class="none">
+      <view class="mail">
+        <image src="../../images/mine/contact/mail.png"></image>
+        <text>关联邮箱</text>
+        <text>ABC@coburg.com.cn</text>
+      </view>
+    </navigator>
+  </view>
+</view>

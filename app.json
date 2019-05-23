@@ -1,0 +1,47 @@
+{
+  "pages": [  
+    "pages/remote/remote",
+    "pages/setting/setting",
+    "pages/mine/mine",
+    "pages/contact/contact",
+    "pages/record/record",
+    "pages/information/information",
+    "pages/pressure/pressure",
+    "pages/pressure_fmale/pressure_fmale",
+    "pages/dryer/dryer",
+    "pages/enema/enema",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#A0A0A0",
+    "selectedColor": "#3888ff",
+    "list": [
+      {
+        "iconPath": "images/toolbar/remote_grey.png",
+        "selectedIconPath": "images/toolbar/remote_blue.png",
+        "pagePath": "pages/remote/remote",
+        "text": "遥控"
+      },
+      {
+        "iconPath": "images/toolbar/setting_grey.png",
+        "selectedIconPath": "images/toolbar/setting_blue.png",
+        "pagePath": "pages/setting/setting",
+        "text": "设置"
+      },
+      {
+        "iconPath": "images/toolbar/mine_grey.png",
+        "selectedIconPath": "images/toolbar/mine_blue.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

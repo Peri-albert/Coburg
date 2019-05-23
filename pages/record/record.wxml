@@ -1,0 +1,26 @@
+<view class="section">
+  <view class="loading" style="display: {{loading}}">
+    <image src="../../images/mine/record/loading-line.png" class="loading-line rotate"></image>
+    <image src="../../images/mine/record/loading-text.png" class="loading-text"></image>
+  </view>
+  <view class="no-data" style="display:{{no_data}}">暂无记录</view>
+  <navigator wx:for="{{use_log}}">
+    <view class="time">
+      <view class="time_image">
+        <image src="../../images/record/clock.png"></image>
+      </view>
+      <view class="time_detail">
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+    <view class="info">
+      <view class="beginTime">
+        <text>{{item.start}}</text>
+      </view>
+      <view class="endTime">{{item.end}}</view>
+    </view>
+    <view class="status">
+      <image src="{{item.icon}}"></image>
+    </view>
+  </navigator>
+</view>

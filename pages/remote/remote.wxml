@@ -1,0 +1,22 @@
+<view>
+  <navigator  url="../pressure/pressure" hover-class="none">
+    <image src='../../images/remote/rear_pressure.png'></image>
+    <text>臀洗</text>
+  </navigator>
+  <navigator url="../pressure_fmale/pressure_fmale" hover-class="none">
+    <image src='../../images/remote/female_pressure.png'></image>
+    <text>女洗</text>
+  </navigator>
+  <view class="middle" bindtap="stop">
+    <image src='../../images/remote/stop.png'></image>
+    <text>停止</text>
+  </view>
+  <navigator url="../enema/enema" hover-class="none">
+    <image src='../../images/remote/enema.png'></image>
+    <text>通便</text>
+  </navigator>
+  <navigator url="../dryer/dryer" hover-class="none">
+    <image src='../../images/remote/dryer.png'></image>
+    <text>暖洗</text>
+  </navigator>
+</view>

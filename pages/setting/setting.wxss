@@ -1,0 +1,50 @@
+.cell {
+  margin-top: 40rpx;
+}
+
+.border {
+  border: 10rpx solid #1acffc;
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  height: 60rpx;
+  margin: 0 auto;
+  width: 90%;
+}
+
+radio-group {
+  align-items: center;
+  display: flex;
+  height: 40rpx;
+  justify-content: space-around;
+}
+
+radio {
+  transform: scale(0.6);
+}
+
+
+.radio-text {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0 10rpx;
+  width: 90%;
+  color: #1acffc;
+}
+
+.option {
+  width: 100%;
+  text-align: center;
+}
+
+.option text {
+  color: #1acffc;
+}
+
+button {
+  width: 300rpx;
+  background: #1acffc;
+  height: 75rpx;
+  font-size:32rpx;
+}
