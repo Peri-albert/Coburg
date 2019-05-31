@@ -4,6 +4,6 @@
 
 录入个人信息和使用记录，传递给后端进行智能化方案推荐
 
-![demo1](/Users/admin/Desktop/Coburg/demo1.png)
+![demo1](./demo1.png)
 
-![demo2](/Users/admin/Desktop/Coburg/demo2.png)
+![demo2](./demo2.png)
